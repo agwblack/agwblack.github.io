@@ -1,11 +1,8 @@
----
----
-
 # Setting Up Jekyll and GitHub Pages
 
 I was recently inspired to make another attempt at blogging again, inspired by
-my friend [Dan Blank](danblank.co.uk). I looked at using WordPress as he does
-but WYSIWYG is not really my bag. Dan sent me [this
+my friend [Dan Blank](http://danblank.co.uk). I looked at using WordPress as he
+does but WYSIWYG is not really my bag. Dan sent me [this
 link](http://www.firozansari.info/no-wordpress-for-my-blogs-again/) about the
 benefits of static website generators, and I started looking into how to setup
 Jekyll and GitHub pages. This post serves two purposes: it is an accounting of
@@ -18,7 +15,13 @@ GitHub has good introductory documentation on setting up pages. I was quickly
 able to get a basic "Hello World" page up, with only this file in my
 repository:
 
-*TODO: insert index.html*
+    $ ls
+    index.html
+
+    $ cat index.html
+    Hello, world
+
+Basic, committing and pushing but it works:
 
 *TODO: insert picture*
 
@@ -27,7 +30,13 @@ repository:
 GitHub It also has some basic stuff on setting up a theme (I went with *Tactile*).  
 I got rid of index.html and created index.md:
 
-*TODO: insert index.md*
+    $ ls
+    index.md
+
+    $ cat index.md
+    # Hello, world
+
+    Is anyone there?
 
 Things are starting to look prettier at this point:
 
@@ -40,6 +49,8 @@ documentation](https://jekyllrb.com/docs/home/). Jekyll distinguishes between
 [Pages](https://jekyllrb.com/docs/pages/) (static pages such as your home page,
 about page, that sort of thing) and [Posts](https://jekyllrb.com/docs/posts/)
 (blog posts and the like, that get added over time).
+
+To create this post I created a `_posts` directory and added the following file:
 
 *TODO: get a post up and running*
 
