@@ -1,8 +1,8 @@
 ---
 ---
-# Hello, world
+# agwblack
 
-Is anyone there?
+A place for me to post my musings:
 
 <ul>
   {% for post in site.posts %}
